@@ -1,0 +1,46 @@
+Open Eclipse
+
+Create a new Java Project: File -> New
+
+Import an unpacked CloudSim project into the new Java Project. Copy all the files from the sfh scheduling folder and paste in the project folder along with the utils.
+
+
+
+CloudSim.init(num user, calendar, trace flag)
+
+
+Datacenter datacenter9883 = new Datacenter(name, characteristics, new
+VmAllocationPolicySimple(hostList),s
+
+
+DatacenterBroker broker = createBroker);
+
+
+Vm vm = new Vm/vmid, brokerld, mips, pesNumber, ram, bw, size, vmm, new
+CloudletSchedulerTimeShared())
+
+
+broker.submitVmList(vmlist)
+
+
+Cloudlet cloudlet = new Cloudlet(id, length, pesNumber, fileSize, outputSize,
+utilizationModel, utilizationMode)
+
+
+broker.submitCloudletList(cloudletList)
+
+
+CloudSim.startSimulation()
+
+
+
+After the coding part is complete, we need to build path to the cloudsim directory.
+
+Right click on the project's parent directory and choose build path, followed by libraries.
+
+Add external jars file named "CloudSim-3.0.jar" from the CloudSim-> jars folder.
+
+Click ok and apply, then run the project to get the output.
+
+
+
