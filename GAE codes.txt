@@ -1,0 +1,17 @@
+C:) Documents and Settings \user \Desktop \apps \ae-01-trivial
+Using a text editor create a file called app.yaml in the
+ae-01-trivial : folder with the following contents:
+
+application: ae-01-trivial
+version: 1
+runtime: python
+api version: 1
+handlers:
+U:/.*
+script: index.py
+
+Then create a file in the ae-01-trivial folder called index.py with three lines in it:
+
+print 'Content-Type:text/plain'
+print
+print 'Hello there Chuck'
